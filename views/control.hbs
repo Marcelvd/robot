@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Control your robot</title>
+<!--
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  {{> header}}
+  <h2>{{screamIt welcomeMessage}}</h2>
+  <div class="wrapper">
+    <button type="button" id="up">Up</button>
+    <button type="button" id="left">Left</button>
+    <button type="button" id="down">Down</button>
+    <button type="button" id="right">Right</button>
+    <button type="button" id="destroy">Stop</button>   
+    <!-- <a type="button" class="btn btn-up">Up</a>
+<a class="btn btn-left">Left</a>
+<a class="btn btn-down">Down</a>
+<a class="btn btn-right">Right</a> -->
+  </div>
+  {{> footer}}
+  <script src="/scripts/control.js"></script>
+</body>
+
+</html>

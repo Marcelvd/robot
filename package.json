@@ -1,0 +1,19 @@
+{
+  "name": "robotapi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Robot driven by api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "jquery": "^3.2.1",
+    "rpi-gpio": "^0.8.1"
+  }
+}
